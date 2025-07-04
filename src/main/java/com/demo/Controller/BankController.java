@@ -35,5 +35,9 @@ public class BankController {
 	public String get5() {
 		return "save ";
 	}
+	@GetMapping(value="/get9")
+	public String get6() {
+		return "save ";
+	
 
 }
