@@ -27,6 +27,9 @@ public class BankController {
 	public List<String> get2(@PathVariable String a) {
 		return bs.get2(a);
 	}
-	
+	@GetMapping(value="/get5")
+	public String get() {
+		return "save ";
+	}
 
 }
